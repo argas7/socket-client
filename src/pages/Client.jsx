@@ -16,7 +16,7 @@ function Client() {
   const socket = useRef();
 
   useEffect(() => {
-    socket.current = io.connect('http://localhost:3001');
+    socket.current = io.connect('https://testsocketexample.herokuapp.com/');
     navigator.mediaDevices.getUserMedia({ video: true, audio: true })
       .then((stream) => {
         setStream(stream);
