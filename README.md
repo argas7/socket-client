@@ -6,6 +6,7 @@
 
 2. Add necessary libs with yarn **or** npm:
 > yarn install
+
 > npm install
 
 3. Run the project with:
