@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Client from './pages/Client';
+
 function App() {
   return (
-    <div className="app">Hello World</div>
+    <Client />
   );
 }
 
